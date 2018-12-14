@@ -1,0 +1,64 @@
+.pop-con{
+    position: relative;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.apl-popup{
+    width: 400px;
+    height: 180px;
+    background-color: #fff;
+    border-radius: 4px;
+    margin: 0 auto;
+    z-index: 1000;
+    display: none;
+    position: relative;
+}
+.apl-p{
+    font-size: 20px;
+    line-height: 100px;
+}
+.apl-a-c{
+    float: left;
+    width: 50%;
+    background-color: #2ECC71;
+}
+.apl-a-d{
+    float: left;
+    width: 50%;
+    background-color: #F44336;
+}
+.apl-a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0px;
+}
+.cover{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: none;
+    z-index: 999;
+    background-color: rgba(0, 0, 0, 0.5);
+    top: 0;
+    left: 0;
+}
+.apl-option{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+}
+#close{
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    font-size: 25px;
+    border-radius: 50%;
+    float: right;
+    cursor: pointer;
+    color: #EF5350;
+    border: 2px solid #EF9A9A;
+}
